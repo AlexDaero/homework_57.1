@@ -36,7 +36,7 @@ function Modal(props) {
                             return (
                                 <Button
                                     key={item.label}
-                                    onClick={item.clicked}
+                                    clicked={item.clicked}
                                     width='100px'
                                     height='20px'
                                     text={item.label}
